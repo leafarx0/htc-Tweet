@@ -1,0 +1,130 @@
+.card-tweet {
+    display: flex;
+    width: 591px;
+    height: 161px;
+    border: 1px solid #DADDDF; /* solid para elegir el color del border */
+}
+
+.info-tweet {
+    display: flex;
+    padding-top: 17px;
+}
+
+.img-tweet {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.span {
+    margin-top: 5px;
+    width: 430px;
+    height: 72px;
+}
+
+.img--1 {
+    display: flex;
+    flex-direction: row;
+    width: 40px;
+    height: 15px;
+}
+
+.img--2 {
+    display: flex;
+    flex-direction: row;
+    width: 72px;
+    height: 15px;
+}
+
+.img--3 {
+    display: flex;
+    flex-direction: row;
+    width: 72px;
+    height: 15px;
+}
+
+/* ---------|TEXTS|--------- */
+
+.author-tweet {
+    font-size: 15px;
+    font-weight: 700;
+    color: #0F1419;
+}
+
+.user {
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 6px;
+    color: #536471;
+}
+
+.span-tweet {
+    margin-right: 84px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.value-img1 {
+    font-size: 13px;
+    font-weight: 400;
+    padding-left: 17px;
+    color: #536471;
+}
+
+.value-img2 {
+    font-size: 13px;
+    font-weight: 400;
+    padding-left: 18px;
+    color: #536471;
+}
+
+.value-img3 {
+    font-size: 13px;
+    font-weight: 400;
+    padding-left: 21px;
+    color: #536471;
+}
+
+.dot {
+    width: 23px;
+    height: 18px;
+}
+
+/* ---------|IMG|--------- */
+
+.logo-nike {
+    width: 48px;
+    height: 48px;
+    /* SOLO FUNCIONA CON LOS 3 COMANDOS */
+    border-radius: 50%; /* para dejarlo redondo */
+    object-fit: cover; /* esto impedirá que se quede raro */
+    object-position: center; /* centraliza el recorte redondo de la imagen */
+    margin: 17px 12px 0px 17px; /* el padding distorciona la imagen porque hace que se suma a la altura y largura */
+}
+
+.verified {
+    width: 15px;
+    height: 15px;
+    padding-left: 3px;
+    padding-top: 1px;
+}
+
+.comment {
+    width: 15px;
+    height: 13px;
+}
+
+.repost {
+    width: 15px;
+    height: 15px;
+}
+
+.favorite {
+    width: 15px;
+    height: 13px;
+}
+
+.sharing {
+    width: 13px;
+    height: 14px;
+}
